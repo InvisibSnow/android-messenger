@@ -30,3 +30,5 @@ include(":templates:kotlin-library")
 include(":templates:feature:domain")
 include(":templates:feature:presentation")
 
+include(":core:essentials")
+include(":core:common-android")

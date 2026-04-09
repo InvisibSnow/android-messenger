@@ -34,4 +34,3 @@ android {
         compose = true
     }
 }
-
