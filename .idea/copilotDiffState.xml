@@ -21,15 +21,6 @@
             </PendingDiffInfo>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/buildSrc/src/main/kotlin/custom-android-application.gradle.kts">
-          <value>
-            <PendingDiffInfo>
-              <option name="filePath" value="$PROJECT_DIR$/buildSrc/src/main/kotlin/custom-android-application.gradle.kts" />
-              <option name="originalContent" value="plugins {&#10;    id(&quot;com.android.application&quot;)&#10;    id(&quot;org.jetbrains.kotlin.android&quot;)&#10;    id(&quot;org.jetbrains.kotlin.plugin.compose&quot;)&#10;}&#10;&#10;android {&#10;    compileSdk = Const.TargetSdk&#10;&#10;    defaultConfig {&#10;        minSdk = Const.MinSdk&#10;        targetSdk = Const.TargetSdk&#10;&#10;        testInstrumentationRunner = &quot;androidx.test.runner.AndroidJUnitRunner&quot;&#10;    }&#10;&#10;    buildTypes {&#10;        release {&#10;            isMinifyEnabled = false&#10;            proguardFiles(&#10;                getDefaultProguardFile(&quot;proguard-android-optimize.txt&quot;),&#10;                &quot;proguard-rules.pro&quot;&#10;            )&#10;        }&#10;    }&#10;    compileOptions {&#10;        sourceCompatibility = JavaVersion.VERSION_11&#10;        targetCompatibility = JavaVersion.VERSION_11&#10;    }&#10;    kotlinOptions {&#10;        jvmTarget = &quot;11&quot;&#10;    }&#10;    buildFeatures {&#10;        compose = true&#10;    }&#10;}&#10;&#10;" />
-              <option name="updatedContent" value="plugins {&#10;    id(&quot;com.android.application&quot;)&#10;    id(&quot;org.jetbrains.kotlin.android&quot;)&#10;    id(&quot;org.jetbrains.kotlin.plugin.compose&quot;)&#10;}&#10;&#10;android {&#10;    compileSdk = Const.TargetSdk&#10;&#10;    defaultConfig {&#10;        minSdk = Const.MinSdk&#10;        targetSdk = Const.TargetSdk&#10;&#10;        testInstrumentationRunner = &quot;androidx.test.runner.AndroidJUnitRunner&quot;&#10;    }&#10;&#10;    buildTypes {&#10;        release {&#10;            isMinifyEnabled = false&#10;            proguardFiles(&#10;                getDefaultProguardFile(&quot;proguard-android-optimize.txt&quot;),&#10;                &quot;proguard-rules.pro&quot;&#10;            )&#10;        }&#10;    }&#10;    compileOptions {&#10;        sourceCompatibility = JavaVersion.VERSION_11&#10;        targetCompatibility = JavaVersion.VERSION_11&#10;    }&#10;    kotlinOptions {&#10;        jvmTarget = &quot;11&quot;&#10;    }&#10;    buildFeatures {&#10;        compose = true&#10;    }&#10;}" />
-            </PendingDiffInfo>
-          </value>
-        </entry>
       </map>
     </option>
   </component>

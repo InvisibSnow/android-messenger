@@ -13,6 +13,9 @@ material = "1.13.0"
 timber = "5.0.1"
 hilt = "2.51.1"
 ksp = "2.0.21-1.0.28"
+navigation = "2.9.0"
+hiltNavigation = "1.2.0"
+coroutines = "1.10.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -41,6 +44,10 @@ hilt-android = {module = "com.google.dagger:hilt-android", version.ref = "hilt"}
 hilt-compiler = {module = "com.google.dagger:hilt-compiler", version.ref = "hilt"}
 plugin-hilt-android = { module = "com.google.dagger.hilt.android:com.google.dagger.hilt.android.gradle.plugin", version.ref = "hilt" }
 plugin-ksp = { module = "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
+javax-inject = { module = "javax.inject:javax.inject", version = "1" }
+navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigation" }
+hilt-navigation = {module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigation"}
+coroutines-core = {module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
 
 [plugins]
 custom-android-application = { id = "custom-android-application" }
@@ -48,4 +55,5 @@ custom-android-library = { id = "custom-android-library" }
 custom-kotlin-library = { id = "custom-kotlin-library" }
 hilt-android = { id = "com.google.dagger.hilt.android"}
 ksp = { id = "com.google.devtools.ksp"}
+compose = { id = "org.jetbrains.kotlin.plugin.compose" }
 
